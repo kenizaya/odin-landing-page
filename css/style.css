@@ -25,7 +25,7 @@ body {
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0px;
 }
@@ -71,3 +71,38 @@ button {
     font-weight: bold;
     font-size: 14px;
 }
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+}
+
+.mid h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.mid-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.mid-main img {
+    width: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+}
+
+.im-xt {
+    width: 200px;
+    text-align: center;
+}
+
+
+
