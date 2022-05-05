@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body {
     margin: 0;
@@ -104,5 +104,66 @@ button {
     text-align: center;
 }
 
+.quote-container {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
 
+.quote-text {
+    font-size: 36px;
+    margin: 0px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 22px;
+    color: #1F2937;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 1000px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.cta h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.cta-text p {
+    font-size: 18px;
+    margin: 0px;
+    color: #c1c1c1;
+}
+
+#but-cta {
+    border: 2px solid #f9faf8;
+}
