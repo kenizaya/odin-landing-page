@@ -167,3 +167,13 @@ button {
 #bt-cta {
     border: 2px solid #f9faf8;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    height: 100px;
+    font-size: 18px;
+}
